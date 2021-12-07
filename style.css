@@ -1,0 +1,133 @@
+
+.pfp{
+  height: 70px;
+}
+
+.dropbtn {
+  color: white;
+  padding: 4px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.splash-screen{
+  background-image: url("croped.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:969px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  position: sticky;
+  margin-top: 10px
+}
+
+.navbar-brand{
+  padding-left: 50px
+}
+
+.active{
+  color:#10C9C3;
+}
+
+.nav navbar-nav{
+  text-align: right;
+  color:black;
+}
+
+.SUS{
+  margin:55px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: white;
+  color: black;
+  padding: 15px;
+}
+
+h4{
+  color: darkgrey;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
+}
+
+.gallery{
+  padding: 0;
+  margin: 0;
+}
+
+.baa{
+  background-color:#10C9C3;
+  color:white;
+}
+
+.glob{
+  background-color:#F5F5F5;
+  margin:0px;
+}
+
+.fred{
+  color:#787878;
+  margin:50px;
+}
+
+h5{
+  color:black;
+  padding-top:10px;
+}
+
+h1{
+  text-align: center;
+  color: #EEE9F0;
+}
